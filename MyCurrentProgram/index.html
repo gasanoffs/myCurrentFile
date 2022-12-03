@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="currentCSS/currentcss.css">
+    <title>My current program</title>
+</head>
+<body>
+
+    <button onclick="fPosition('main','right','50')">Left</button>
+    <button onclick="fPosition('main','left','50')">Right</button>
+    <button onclick="fPosition('main','top','50')">Top</button>
+    <button onclick="fPosition('main','bottom','50')">Bottom</button>
+    --
+    <button onclick="fStartVariable()">Start</button>
+    --
+    <button onclick="fChangeColor()">ChangeColorWithOnclick</button>
+    --
+    <button onclick="hideonclick()">HideOnclick</button>
+    <button onclick="showonclick()">ShowOnclick</button>
+    <button onclick="showHideOnclick()">Show/Hide(Onclick)</button>
+    --
+    <button onclick="bigDiv()">Big</button>
+    <button onclick="smallDiv()">Small</button>
+    <button onclick="bigSmallDiv()">Big/Small</button>
+    <hr>
+
+    <div class="general">
+        <div id="main"></div>
+    </div>
+    <br><hr>
+
+    <button id="btnNew">Right</button>
+    --
+    <button id="btnChangeColor">ChangeColorWithJquery</button>
+    --
+    <button id="btnHide">HideJquery</button>
+    <button id="btnShow">ShowJquery</button>
+    <button id="btnShowHide">Show/Hide(Jquery)</button>
+    <hr>
+
+    <div class="general">
+        <div id="second"></div>
+    </div>
+
+    <script src="currentJS/currentjs.js"></script>
+
+</body>
+</html>
